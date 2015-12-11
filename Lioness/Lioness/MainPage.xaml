@@ -8,6 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="99,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="157">
+        	<Run FontStyle="Italic" Text="&quot;Because doubt in  yourself,is just the last step towards success&quot;"/>
+        </TextBlock>
+        <Button x:Name="button" Content="Random" HorizontalAlignment="Left" Margin="72,495,0,0" VerticalAlignment="Top" Click="button_Click" Width="85"/>
+        <Button x:Name="button1" Content="Write" HorizontalAlignment="Left" Margin="209,495,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="button2" Content="All quotes" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
