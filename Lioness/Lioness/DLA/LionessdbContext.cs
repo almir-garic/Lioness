@@ -8,7 +8,7 @@ using Windows.Storage;
 
 namespace Lioness.DLA
 {
-    class LionessdbContext:DbContext
+    public class LionessdbContext:DbContext
     {
         public DbSet<Quotes> Quotes { get; set; }
 

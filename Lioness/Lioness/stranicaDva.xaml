@@ -18,13 +18,13 @@
                 </TextBlock.Foreground>
             </TextBlock>
 
-          <!--  <ListView x:Name="TeamsListView"
+          <!--  <ListView x:Name="Quotes"
                   IsItemClickEnabled="True"
-                  ItemClick="TeamsListView_ItemClick"
+                  ItemClick="Quotes_ItemClick"
                   HorizontalAlignment="Left" Height="551"  VerticalAlignment="Top" Width="330">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextBlock Text="{Binding Name}" />
+                        <TextBlock Text="{Binding Quote}" />
                     </DataTemplate>
                 </ListView.ItemTemplate> 
                 <FlipView x:Name="flipView" Height="100" Width="100"/>
