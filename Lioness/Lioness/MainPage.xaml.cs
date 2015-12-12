@@ -30,6 +30,16 @@ namespace Lioness
             ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(200, 100));
         }
 
-       
+        //dugme All Quotes
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(stranicaDva));
+        }
+
+        //dugme Write
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(stranicaTri));
+        }
     }
 }

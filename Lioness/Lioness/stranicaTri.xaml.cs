@@ -26,5 +26,15 @@ namespace Lioness
         {
             this.InitializeComponent();
         }
+
+        private void Main_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void SaveAppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
     }
 }
